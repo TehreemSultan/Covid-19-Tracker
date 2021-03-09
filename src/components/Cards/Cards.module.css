@@ -7,14 +7,20 @@
 }
 
 .Infected{
-    background-color: rgba(0, 0, 255, 0.2) !important;
+    background-color: rgba(0, 0, 255, 0.1) !important;
+   
+    border-bottom:5px solid rgba(0, 0, 255, 0.8) !important;
 }
 
 .Recovered{
-    background-color: rgba(1, 173, 1, 0.2) !important;
+    background-color: rgba(1, 173, 1, 0.1) !important;
+   
+    border-bottom:5px solid rgba(1, 173, 1, 0.8)  !important;
 }
 
 
 .Deaths{
-    background-color: hsla(0, 100%, 50%, 0.2) !important;
+    background-color: rgba(255, 0, 0, 0.1) !important;
+    
+    border-bottom:5px solid rgba(255, 0, 0, 0.8) !important;
 }
