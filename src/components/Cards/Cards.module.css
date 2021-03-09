@@ -1,0 +1,20 @@
+.container{
+    margin:50px 0;
+}
+
+.card{
+    margin:1% 2% !important;
+}
+
+.Infected{
+    background-color: rgba(0, 0, 255, 0.2) !important;
+}
+
+.Recovered{
+    background-color: rgba(1, 173, 1, 0.2) !important;
+}
+
+
+.Deaths{
+    background-color: hsla(0, 100%, 50%, 0.2) !important;
+}
