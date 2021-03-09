@@ -9,24 +9,26 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
     }
     const data=[
         {
+            id:0,
             cardData:confirmed,
             cardHeading:"Infected",
             cardPara:"number of active cases of covid 19"
         },
         {
+            id:1,
             cardData:recovered,
             cardHeading:"Recovered",
             cardPara:"number of recoveries from covid 19"
         },
         {
+            id:2,
             cardData:deaths, 
             cardHeading:"Deaths",
             cardPara:"number of deaths from covid 19"
         }
     ];
     const cards=data.map((item)=>{
-       
-        return(<Grid item component={Card} xs={12} md={3} className={`${styles.card}
+        return(<Grid item component={Card} xs={12} md={3} key={item.id} className={`${styles.card}
          ${item.cardHeading==='Infected'?styles.Infected:
          item.cardHeading==='Recovered'?styles.Recovered:styles.Deaths}`}>
         <CardContent>
